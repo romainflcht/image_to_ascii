@@ -1,29 +1,30 @@
 # image_to_ascii
-There are two file in this project :
-- webcam_to_ascii.py : transform your webcam into ascii caracters in real time an display it into the terminal window.
-- img_to_ascii.py : transform a selected image into ascii caracters an display it into the terminal window.
-
-
+Python scripts that can convert images and your webcam stream into ASCII characters in your terminal
 ## Installation
 
-This script use python3 only :
+Those scripts use python 3 only :
+- Windows :
 ```bash
-pip3 install opencv-python
-pip3 install Pillow
+pip install -r requirements.txt
+```
+- MacOS / Linux : 
+```bash
+pip3 install -r requirements.txt
 ```
 
 ## Usage
- - webcam_to_ascii.py :
+There are two file in this project :
+- webcam_to_ascii.py : transform your webcam stream into ASCII caracters in real time and display it into the terminal 
+window.
     ```bash
     python3 webcam_to_ascii.py
     ```
-    
-- img_to_ascii.py :
+- img_to_ascii.py : transform a selected image into ASCII caracters and display it into the terminal window.
     ```bash
     python3 img_to_ascii.py
     ```
     When it's asked, put the path of your image to convert it.
 
 ## License
-- romain_flcht
+- romainflcht
 
