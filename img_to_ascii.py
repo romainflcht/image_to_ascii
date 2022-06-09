@@ -56,8 +56,7 @@ if __name__ == '__main__':
     try:
         img = Image.open(path).convert('L')
     except FileNotFoundError:
-        print(f'{path} - File not found, abort...', end='\n\n\n')
-        exit()
+        raise Exception(f'\n\n{path} - File not found, abort...')
 
     width, height = img.size
 
